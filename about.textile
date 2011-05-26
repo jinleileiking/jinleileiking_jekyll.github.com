@@ -6,11 +6,11 @@ layout: master
 h2. 自我介绍
 
 * 老实人
-* 喜欢编程ruby, c,linux,单片机老手,java, .net form,rails都会点.
+* 喜欢编程ruby, c,linux,单片机老手,java, .net form,rails都会点
 * 熟练度: C > Ruby > Java > C# > Jquery = Javascript > html > css > Lua
 * 协议: RFID Protocol(EPC c1g2 ....) > TCP/IP (http, tcp/udp, ip, x.25/atm) 
-* 业务上，RFID, EPC, TCP/IP，中国移动企业一卡通，物联网
-* 游戏  cwow:二区Coraline
+* 业务上: RFID, EPC, TCP/IP，中国移动企业一卡通，物联网
+* -游戏  cwow:二区Coraline-
 * 其他: 喜欢足球，音乐，心理学，历史，经济学
   
 h2. 代码集散地
