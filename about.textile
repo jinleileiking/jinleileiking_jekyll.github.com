@@ -1,5 +1,5 @@
 ---
-title: About Michael Bleigh
+title: About jinleileiking
 layout: master
 ---
 
@@ -14,7 +14,7 @@ h2. 自我介绍
 * 其他: 喜欢足球，音乐，心理学，历史，经济学
   
 h2. 代码集散地
-* "Github":www.github.com/jinleileiking
+* "Github":http://www.github.com/jinleileiking
   
 h2. 联系方式
 * "豆瓣":http://www.douban.com/people/jinleileiking/
@@ -32,8 +32,8 @@ h2. 自己搞的小网站:
 * "实时聊天室(root/123456)":http://chatroom.heroku.com
 
 h2. 闲言闲语
+
 想业余时间赚点小钱，有外包的叫我啊: ruby, rails, c    
-    
 喜欢搞技术，从C开始，开始做TCP/IP的链路层工作（H3C），当时的目标是CISCO，后在津从事RFID工作，完成了一套协议，做了N个设备，后又带领团队通过了移动通信企业一卡通终端测试（也就是手机刷卡），被提升到所谓的系统部（不写代码，搞搞什么方案之类的），但由于离代码越来越远，闲时也多了，开始了学了学.NET，做了几个c# winform程序，但觉得太土了，于是用JAVA swing做了几个form程序，此间做了几个WM6的手机小游戏，直到最近用到了ruby，果断抛弃.NET和JAVA,用ruby做了几个网页，用gnome+ruby做了个form程序，后改为swing+jruby。目前读书中，想看看lisp等新知识。技术控。。。
     
     
