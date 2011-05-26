@@ -3,14 +3,38 @@ title: About Michael Bleigh
 layout: master
 ---
 
-h2. About Michael Bleigh
+h2. 自我介绍
 
-Michael Bleigh is the author of this blog as well as a Rubyist, designer, and open source advocate. He is currently the Creative Director and Open-Source Activist at "Intridea":http://www.intridea.com/, a Washington D.C. based web applications development firm.
+* 老实人
+* 喜欢编程ruby, c,linux,单片机老手,java, .net form,rails都会点.
+* 熟练度: C > Ruby > Java > C# > Jquery = Javascript > html > css > Lua
+* 协议: RFID Protocol(EPC c1g2 ....) > TCP/IP (http, tcp/udp, ip, x.25/atm) 
+* 业务上，RFID, EPC, TCP/IP，中国移动企业一卡通，物联网
+* 游戏  cwow:二区Coraline
+* 其他: 喜欢足球，音乐，心理学，历史，经济学
+  
+h2. 代码集散地
+* "Github":www.github.com/jinleileiking
+  
+h2. 联系方式
+* "豆瓣":http://www.douban.com/people/jinleileiking/
+* QQ: 125981281
+* msn: leiking@live.com
+* gtalk: jinleileiking@gmail.com
+* Email: jinleileiking@gmail.com
+* "twitter":http://www.twitter.com/jinleileiking
 
-Michael has contributed a number of open-source projects to the Ruby community including the "SubdomainFu":http://github.com/mbleigh/subdomain-fu and "ActsAsTaggableOn":http://github.com/mbleigh/acts-as-taggable-on plugins for Rails. He was also chosen to speak at RailsConf Europe 2008 as well as the Great Lakes Ruby Bash in 2008.
+h2. 自己搞的小网站:
 
-His work at Intridea has included being the product manager and technical lead for "Present.ly":http://www.presentlyapp.com/, the business micro-communications platform launched in September of 2008.
+* "很简单的聊天室":http://freebbs.heroku.com
+* "多人博客":http://jllgl.heroku.com
+* "从豆瓣抓取内容的博客":http://jinleileiking.heroku.com
+* "实时聊天室(root/123456)":http://chatroom.heroku.com
 
-h2. About This Site
-
-This site is built using the "Jekyll":http://github.com/mojombo/jekyll library and hosted on "GitHub":http://github.com/. The source code used to create this library is "publicly available on GitHub":http://github.com/mbleigh/mbleigh.github.com as well.
+h2. 闲言闲语
+想业余时间赚点小钱，有外包的叫我啊: ruby, rails, c    
+    
+喜欢搞技术，从C开始，开始做TCP/IP的链路层工作（H3C），当时的目标是CISCO，后在津从事RFID工作，完成了一套协议，做了N个设备，后又带领团队通过了移动通信企业一卡通终端测试（也就是手机刷卡），被提升到所谓的系统部（不写代码，搞搞什么方案之类的），但由于离代码越来越远，闲时也多了，开始了学了学.NET，做了几个c# winform程序，但觉得太土了，于是用JAVA swing做了几个form程序，此间做了几个WM6的手机小游戏，直到最近用到了ruby，果断抛弃.NET和JAVA,用ruby做了几个网页，用gnome+ruby做了个form程序，后改为swing+jruby。目前读书中，想看看lisp等新知识。技术控。。。
+    
+    
+        
