@@ -16,6 +16,11 @@ h3. 软件升级
 * pacman -Syu
 * reboot
 
+
+
+h3. x
+
+
 h3. zsh,添加用户
 * pacman -S zsh
 * pacman -S git
@@ -26,4 +31,5 @@ h3. zsh,添加用户
 * #%wheel	ALL=(ALL) ALL取消注释
 * passwd jinleileiking
 
-h3. x
+
+
