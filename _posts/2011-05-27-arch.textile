@@ -20,6 +20,10 @@ h3. 软件升级
 
 h3. x
 
+h4. vbox
+* mount addition cd.
+* pacman -S kernel26-headers xorg-server base-devel
+
 
 h3. zsh,添加用户
 * pacman -S zsh
