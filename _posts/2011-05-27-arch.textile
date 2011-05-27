@@ -3,10 +3,25 @@ layout: post
 title: "arch安装记录" 
 ---
 
+h3. 菜单安装
 * 修改主机名
 * 添个root密码
 * reboot
 
-然后
+h3. 软件升级
+* /etc/pacman.d/mirrorslist mirror 选163
+* pacman -Syy
+* pacman -Syu
+* pacman-db-upgrade
+* pacman -Syu
+* reboot
 
-* 添加用户
+h3. zsh,添加用户
+* pacman -S zsh
+* oh-my-zsh
+* 添加用户  useradd -m -g users -G audio,lp,optical,storage,video,wheel,games,power,scanner -s /bin/bash jinleileiking
+* pacman -S sudo
+* visudo
+* #%wheel	ALL=(ALL) ALL取消注释
+
+h3. x
