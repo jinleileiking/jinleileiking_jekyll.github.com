@@ -1,0 +1,7 @@
+---
+layout: post
+title: "arch安装记录" 
+---
+
+* 修改主机名
+* 添个root密码
