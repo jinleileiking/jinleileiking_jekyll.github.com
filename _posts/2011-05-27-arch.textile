@@ -20,7 +20,8 @@ h3. 软件升级
 
 h3. x
 
-h3. vbox
+h4. vbox
+
 乱搞搞好了，需要按GPL的步骤来
 -* mount addition cd.-
 -* pacman -S kernel26-headers xorg-server base-devel-
@@ -29,9 +30,11 @@ h3. vbox
 -pacman -Ss xf86-video-vesa-
 
 h3. gnome3
+
 * pacman -S gnome-shell
 
 h3. zsh,添加用户
+
 * pacman -S zsh
 * pacman -S git
 * oh-my-zsh : wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
