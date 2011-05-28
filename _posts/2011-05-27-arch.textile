@@ -44,8 +44,10 @@ h3. zsh,添加用户
 * #%wheel	ALL=(ALL) ALL取消注释
 * passwd jinleileiking
 
+h3. 字体
 
 
 h2. 遇到的问题
 * vbox addition装不上： 要按照gpl pacman来取
 * gnome3 vbox fallback模式: ln -s /usr/lib/xorg/modules/dri /usr/lib/dri     ln -s /usr/lib/xorg/modules/dri/vboxvideo_dri.so /usr/lib/dri
+* gnome3 fullmode cpu太高，死机：其实禁用vbox的3d模式就能切换到rollbak
