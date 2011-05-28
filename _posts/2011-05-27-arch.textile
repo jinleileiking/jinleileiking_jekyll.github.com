@@ -20,7 +20,7 @@ h3. 软件升级
 
 h3. x
 
-h4. vbox
+h3. vbox
 乱搞搞好了，需要按GPL的步骤来
 -* mount addition cd.-
 -* pacman -S kernel26-headers xorg-server base-devel-
@@ -28,7 +28,7 @@ h4. vbox
 -# pacman -S mesa-
 -pacman -Ss xf86-video-vesa-
 
-h4. gnome3
+h3. gnome3
 * pacman -S gnome-shell
 
 h3. zsh,添加用户
