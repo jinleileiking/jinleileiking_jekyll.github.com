@@ -23,7 +23,9 @@ h3. x
 h4. vbox
 * mount addition cd.
 * pacman -S kernel26-headers xorg-server base-devel
-
+# pacman -S xorg-server xorg-xinit xorg-utils xorg-server-utils
+# pacman -S mesa
+$ pacman -Ss xf86-video-vesa
 
 h3. zsh,添加用户
 * pacman -S zsh
