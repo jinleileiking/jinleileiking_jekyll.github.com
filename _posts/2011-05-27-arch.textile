@@ -32,6 +32,7 @@ h4. vbox
 h3. gnome3
 
 * pacman -S gnome-shell
+* 按照wiki来，注意要用inittab模式。
 
 h3. zsh,添加用户
 
