@@ -46,3 +46,6 @@ h3. zsh,添加用户
 
 
 
+h2. 遇到的问题
+* vbox addition装不上： 要按照gpl pacman来取
+* gnome3 vbox fallback模式: ???
