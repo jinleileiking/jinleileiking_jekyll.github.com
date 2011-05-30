@@ -1,7 +1,0 @@
----
-layout: post
-title: "gentoo安装记录" 
----
-
-* 下载时，要下载stage3.tar.gz...否则麻烦
-* 下了，怎么传到vbox? 用ssh, 开了ssh，用securtcrt 控制vbox,可以粘贴了！
