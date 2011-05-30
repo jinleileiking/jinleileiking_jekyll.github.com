@@ -2,7 +2,7 @@ tags
 *~
 *.swp
 .*swp
+*.bak
 .VimballRecord
-undofiles/*
 projects/*
 .netrwhist
