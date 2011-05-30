@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "arch安装记录" 
+title: "豆瓣认领" 
 ---
 
 doubanclaim2f29c9c1810848dd
