@@ -20,7 +20,7 @@ h3. 软件升级
 
 h3. x
 
-h4. vbox
+h3. vbox
 
 乱搞搞好了，需要按GPL的步骤来
 -* mount addition cd.-
@@ -54,7 +54,7 @@ h3. 字体
 * Zsh,Sans Zs ns之间有间距：折腾了半天：需要cairo-ubuntu, xft-ubuntu, fontconfig-ubuntu等（鉴于转到gentoo，不细研究了)
 * fontconfig: https://gist.github.com/998504
 
-h2. 遇到的问题
+h3. 遇到的问题
 * vbox addition装不上： 要按照gpl pacman来取
 * gnome3 vbox fallback模式: ln -s /usr/lib/xorg/modules/dri /usr/lib/dri     ln -s /usr/lib/xorg/modules/dri/vboxvideo_dri.so /usr/lib/dri
 * gnome3 fullmode cpu太高，死机：其实禁用vbox的3d模式就能切换到rollbak
