@@ -47,6 +47,11 @@ h3. zsh,添加用户
 
 h3. 字体
 
+* pacman -S dejavu?
+* 下载微米黑，也可以考虑雅黑，中文字体其实就是调整中文字体顺序.fontconf
+* wiki步骤安装yaourt, 就是加个源。
+* Zsh,Sans Zs ns之间有间距：折腾了半天：需要cairo-ubuntu, xft-ubuntu, fontconfig-ubuntu等（鉴于转到gentoo，不细研究了)
+* 
 
 h2. 遇到的问题
 * vbox addition装不上： 要按照gpl pacman来取
