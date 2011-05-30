@@ -1,6 +1,7 @@
 tags
 *~
 *.swp
+.*swp
 .VimballRecord
 undofiles/*
 projects/*
