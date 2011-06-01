@@ -5,3 +5,9 @@ title: "gentoo安装记录"
 
 * 下载时，要下载stage3.tar.gz...否则麻烦
 * 下了，怎么传到vbox? 用ssh, 开了ssh，用securtcrt 控制vbox,可以粘贴了！
+
+h3. 遇到的问题
+
+* 选择源，163那个mirror可以，sync要用tom的:SYNC="rsync://gentoo.tom.com/gentoo-portage"
+* 出现了一次 net.eth0这个找不到，稀里糊涂搞好了
+* 内核启动，挂在什么pre.sh : 内核要选DEVTMPFS和CONFIG_DEVTMPFS_MOUNT
