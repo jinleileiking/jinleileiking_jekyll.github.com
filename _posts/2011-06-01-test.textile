@@ -1,6 +1,0 @@
----
-layout: post
-title: "test fuck" 
----
-
-* aaaa下了，怎么传到vbox? 用ssh, 开了ssh，用securtcrt 控制vbox,可以粘贴了！
