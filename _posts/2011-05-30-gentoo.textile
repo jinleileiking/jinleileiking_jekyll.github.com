@@ -9,9 +9,9 @@ title: "gentoo安装记录"
 h3. 遇到的问题
 
 * 选择源，163那个mirror可以，sync要用tom的:SYNC="rsync://gentoo.tom.com/gentoo-portage"
-* 出现了一次 net.eth0这个找不到，稀里糊涂搞好了
+* 出现了一次 net.eth0这个找不到，稀里糊涂搞好了: ln net.lo -s net.eth0
 * 内核启动，挂在什么pre.sh : 内核要选DEVTMPFS和CONFIG_DEVTMPFS_MOUNT
-* x : 挂在 no screens found, X -configure挂在no devices to configure
+* x : 挂在 no screens found, X -configure挂在no devices to configure: rc-update add udev boot /etc/init.d/udev start 搞了一天
 
 h3. othes
 * lspci : emerge sys-apps/pciutils
