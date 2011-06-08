@@ -28,6 +28,7 @@ h3. vbox
 -# pacman -S xorg-server xorg-xinit xorg-utils xorg-server-utils-
 -# pacman -S mesa-
 -pacman -Ss xf86-video-vesa-
+* sharefolder: sudo mount -t vboxsf tools /mnt
 
 h3. gnome3
 
