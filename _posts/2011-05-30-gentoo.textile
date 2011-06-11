@@ -9,7 +9,7 @@ title: "gentoo安装记录"
 h3. 真实安装
 
 * eth0: ln -s net.lo net.eth0
-* rc-update add udev dhcpcd net.eth0 default
+* rc-update add udev dhcpcd net.eth0 sshd default
 
 h3. 遇到的问题
 
