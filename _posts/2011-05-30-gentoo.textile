@@ -10,6 +10,8 @@ h3. 真实安装
 
 * eth0: ln -s net.lo net.eth0
 * rc-update add udev dhcpcd net.eth0 sshd default
+* kworker high cpu
+* eth0 dhcp
 
 h3. 遇到的问题
 
