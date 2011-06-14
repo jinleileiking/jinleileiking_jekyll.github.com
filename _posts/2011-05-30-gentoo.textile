@@ -10,8 +10,10 @@ h3. 真实安装
 
 * eth0: ln -s net.lo net.eth0
 * rc-update add udev dhcpcd net.eth0 sshd default
-* kworker high cpu
+* kworker high cpu: 重启之后就好了，不知道为什么
 * eth0 dhcp
+* gnome的menu 添加不了，看不见：用gdm加上就有了
+* alsa: 要把device driver改为 module。否则音量控制键没有。&& alsamixer 要把 speaker unmute，纠结了半天。。
 
 h3. 遇到的问题
 
