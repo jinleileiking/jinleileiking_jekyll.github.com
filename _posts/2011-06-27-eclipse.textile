@@ -1,0 +1,6 @@
+---
+layout: post
+title: "eclipse 遇到的问题" 
+---
+
+* 最开始emerge了eclipse-jdk,这个不好使，然后下了官方网站的3.5.2，出错:Failed to parse arguments: Cannot open display, rm -rf ~/.eclipse搞定，郁闷了半天

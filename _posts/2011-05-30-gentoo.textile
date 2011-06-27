@@ -23,8 +23,13 @@ h3. 遇到的问题
 * 内核启动，挂在什么pre.sh : 内核要选DEVTMPFS和CONFIG_DEVTMPFS_MOUNT
 * x : 挂在 no screens found, X -configure挂在no devices to configure: rc-update add udev boot /etc/init.d/udev start 搞了一天
 * vbox ctrl+cv 原因是没有加入vbox组 
+* /dev/fb/62 not found: udev needs start
+
+
 
 h3. others
 * lspci : emerge sys-apps/pciutils
 * equery可查看已安装包的信息 emerge gentoolkit:  equery l
 * mount /dev/sda1 /boot : ext2不支持问题：内核没吧ext2编译进去。用cd重编。。
+* usermod -a -G ftp tony
+
