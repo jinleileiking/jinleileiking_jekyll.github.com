@@ -14,7 +14,7 @@ h3. 真实安装
 * eth0 dhcp
 * gnome的menu 添加不了，看不见：用gdm加上就有了
 * alsa: 要把device driver改为 module。否则音量控制键没有。&& alsamixer 要把 speaker unmute，纠结了半天。。
-* xterm 设置unicode模式:???
+* gnome-terminal 设置unicode模式:???: 需要在xdm登入时，选择编码........
 
 h3. 遇到的问题
 
@@ -24,7 +24,7 @@ h3. 遇到的问题
 * x : 挂在 no screens found, X -configure挂在no devices to configure: rc-update add udev boot /etc/init.d/udev start 搞了一天
 * vbox ctrl+cv 原因是没有加入vbox组 
 
-h3. othes
+h3. others
 * lspci : emerge sys-apps/pciutils
 * equery可查看已安装包的信息 emerge gentoolkit:  equery l
 * mount /dev/sda1 /boot : ext2不支持问题：内核没吧ext2编译进去。用cd重编。。
