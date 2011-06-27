@@ -14,7 +14,7 @@ h3. 真实安装
 * eth0 dhcp
 * gnome的menu 添加不了，看不见：用gdm加上就有了
 * alsa: 要把device driver改为 module。否则音量控制键没有。&& alsamixer 要把 speaker unmute，纠结了半天。。
-* gnome-terminal 设置unicode模式:???: 需要在xdm登入时，选择编码........
+* gnome-terminal 设置unicode模式:???: 需要在xdm登入时，选择编码........LANG=C代表使用ascii
 
 h3. 遇到的问题
 
