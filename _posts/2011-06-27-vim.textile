@@ -4,3 +4,10 @@ title: "vim遇到的问题"
 ---
 
 * 有几个插件和输入法冲突: acp, autoclose, delimate
+
+
+h3. todo
+
+* 怎么让不好使的插件支持中文输入法
+* vimim
+* vundle

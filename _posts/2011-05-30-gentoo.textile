@@ -3,11 +3,14 @@ layout: post
 title: "gentoo安装记录" 
 ---
 
-* 下载时，要下载stage3.tar.gz...否则麻烦
-* 下了，怎么传到vbox? 用ssh, 开了ssh，用securtcrt 控制vbox,可以粘贴了！
 
 h3. 真实安装
 
+* 内核启动，挂在什么pre.sh : 内核要选DEVTMPFS和CONFIG_DEVTMPFS_MOUNT
+* 出现了一次 net.eth0这个找不到，稀里糊涂搞好了: ln net.lo -s net.eth0
+* 下载时，要下载stage3.tar.gz...否则麻烦
+* 下了，怎么传到vbox? 用ssh, 开了ssh，用securtcrt 控制vbox,可以粘贴了！
+* 选择源，163那个mirror可以，sync要用tom的:SYNC="rsync://gentoo.tom.com/gentoo-portage"
 * eth0: ln -s net.lo net.eth0
 * rc-update add udev dhcpcd net.eth0 sshd default
 * kworker high cpu: 重启之后就好了，不知道为什么
@@ -15,21 +18,20 @@ h3. 真实安装
 * gnome的menu 添加不了，看不见：用gdm加上就有了
 * alsa: 要把device driver改为 module。否则音量控制键没有。&& alsamixer 要把 speaker unmute，纠结了半天。。
 * gnome-terminal 设置unicode模式:???: 需要在xdm登入时，选择编码........LANG=C代表使用ascii
-
-h3. 遇到的问题
-
-* 选择源，163那个mirror可以，sync要用tom的:SYNC="rsync://gentoo.tom.com/gentoo-portage"
-* 出现了一次 net.eth0这个找不到，稀里糊涂搞好了: ln net.lo -s net.eth0
-* 内核启动，挂在什么pre.sh : 内核要选DEVTMPFS和CONFIG_DEVTMPFS_MOUNT
 * x : 挂在 no screens found, X -configure挂在no devices to configure: rc-update add udev boot /etc/init.d/udev start 搞了一天
-* vbox ctrl+cv 原因是没有加入vbox组 
 * /dev/fb/62 not found: udev needs start
+* mount /dev/sda1 /boot : ext2不支持问题：内核没吧ext2编译进去。用cd重编。。
+
+h3. vbox
+
+* vbox ctrl+cv 原因是没有加入vbox组 
 
 
 
 h3. others
 * lspci : emerge sys-apps/pciutils
 * equery可查看已安装包的信息 emerge gentoolkit:  equery l
-* mount /dev/sda1 /boot : ext2不支持问题：内核没吧ext2编译进去。用cd重编。。
 * usermod -a -G ftp tony
 
+h3. todo
+* 扩大vbox分区
