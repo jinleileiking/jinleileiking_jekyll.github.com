@@ -1,0 +1,6 @@
+---
+layout: post
+title: "vim遇到的问题" 
+---
+
+* 有几个插件和输入法冲突: acp, autoclose, delimate
