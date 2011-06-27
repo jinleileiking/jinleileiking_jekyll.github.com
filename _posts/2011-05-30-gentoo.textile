@@ -14,6 +14,7 @@ h3. 真实安装
 * eth0 dhcp
 * gnome的menu 添加不了，看不见：用gdm加上就有了
 * alsa: 要把device driver改为 module。否则音量控制键没有。&& alsamixer 要把 speaker unmute，纠结了半天。。
+* xterm 设置unicode模式:???
 
 h3. 遇到的问题
 
@@ -21,7 +22,7 @@ h3. 遇到的问题
 * 出现了一次 net.eth0这个找不到，稀里糊涂搞好了: ln net.lo -s net.eth0
 * 内核启动，挂在什么pre.sh : 内核要选DEVTMPFS和CONFIG_DEVTMPFS_MOUNT
 * x : 挂在 no screens found, X -configure挂在no devices to configure: rc-update add udev boot /etc/init.d/udev start 搞了一天
-* vbox ctrl+cv 
+* vbox ctrl+cv 原因是没有加入vbox组 
 
 h3. othes
 * lspci : emerge sys-apps/pciutils
