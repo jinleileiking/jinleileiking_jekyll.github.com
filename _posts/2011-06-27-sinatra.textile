@@ -1,0 +1,16 @@
+---
+layout: post
+title: "sinatra source code hacking" 
+---
+
+Application.run!
+  detect_rack_handler # select the first (webrick, thin, or ....)
+  handler.run self # Rack run ...
+  #......
+  # when http requested
+  Base.call ##　？？？？
+    synchronize { prototype.call(env) }
+       new
+         build
+            builder.run new!(*args, &bk) ## ????
+
