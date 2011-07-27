@@ -17,7 +17,7 @@ h3. 真实安装
 * eth0 dhcp
 * gnome的menu 添加不了，看不见：用gdm加上就有了
 * alsa: 要把device driver改为 module。否则音量控制键没有。&& alsamixer 要把 speaker unmute，纠结了半天。。
-* gnome-terminal 设置unicode模式:???: 需要在xdm登入时，选择编码........LANG=C代表使用ascii
+* gnome-terminal 设置unicode模式:???: 需要在xdm登入时，选择编码........LANG=C代表使用ascii..gnome3不能选，在systemsetting里选ch键盘不好使，再反选en_us,ok.....LANG已经变成en_us
 * x : 挂在 no screens found, X -configure挂在no devices to configure: rc-update add udev boot /etc/init.d/udev start 搞了一天
 * /dev/fb/62 not found: udev needs start
 * mount /dev/sda1 /boot : ext2不支持问题：内核没吧ext2编译进去。用cd重编。。
