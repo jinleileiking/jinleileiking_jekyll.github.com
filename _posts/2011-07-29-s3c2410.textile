@@ -17,7 +17,7 @@ title: "s3c2410板子上跑ruby"
 * compile ruby 192
 ** env ac_cv_func_setpgrp_void=yes ./configure --host=arm-linux --target=arm-linux --disable-pthread --enable-shared --prefix=/home/jinleileiking/tools/embeded/ruby192
 
-
+* chown -R  root:root *
 
 
 
