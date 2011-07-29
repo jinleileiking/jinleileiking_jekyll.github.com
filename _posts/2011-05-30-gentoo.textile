@@ -25,6 +25,11 @@ h3. 真实安装
 h3. vbox
 
 * vbox ctrl+cv 原因是没有加入vbox组 
+* 扩大vbox分区: 
+** VBoxManage modifyhd xxx.vdi --resize 40000
+** 用gentoodisk启动
+** fdisk 改分区大小
+** resize2fs.... done... so easy
 
 
 
@@ -34,4 +39,3 @@ h3. others
 * usermod -a -G ftp tony
 
 h3. todo
-* 扩大vbox分区
