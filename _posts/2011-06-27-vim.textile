@@ -4,7 +4,10 @@ title: "vim遇到的问题"
 ---
 
 * 有几个插件和输入法冲突: acp, autoclose, delimate
-
+* cscope
+** !cscope -Rbq
+** :cscope add cscope.out
+** :cs find 3 <C-R><C-W>
 
 h3. todo
 
