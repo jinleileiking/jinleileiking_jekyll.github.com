@@ -13,6 +13,7 @@ h2. 自我介绍
 * -游戏  cwow:二区Coraline-
 * 其他: 喜欢足球，音乐，心理学，历史，经济学
 * 耳机：K66, HD495, DT231, MX500, MX400II, MX300, MX350, AKG 12P
+* 音箱: 3NOD N20G, 1900TIII, U2
 
 h2. 代码集散地
 * "Github":http://www.github.com/jinleileiking
