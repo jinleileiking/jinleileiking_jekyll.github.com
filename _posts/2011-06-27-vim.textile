@@ -8,6 +8,7 @@ title: "vim遇到的问题"
 ** !cscope -Rbq
 ** :cscope add cscope.out
 ** :cs find 3 <C-R><C-W>
+** 遇到cscope add 不成功的问题，：目录不能有空格。。。。
 
 h3. todo
 
