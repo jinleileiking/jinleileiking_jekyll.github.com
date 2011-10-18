@@ -1,23 +1,9 @@
 ---
 layout: post
-title: "s3c2410板子上跑ruby" 
+title: "git" 
 ---
 
-* tool-chain
-** armlinux.org: arm-linux-gcc 2.95.0: cpp0: 只能放在usr/local
-
-
-* busybox
-** make DOSTATIC=true TARGET_ARCH=arm CROSS=arm-linux- PREFIX=../root_china all install
-
-* vivi
-** net tftp 10.87.42.26 0x30008000 root_china.cramfs
-** net flash root
-
-* compile ruby 192
-** env ac_cv_func_setpgrp_void=yes ./configure --host=arm-linux --target=arm-linux --disable-pthread --enable-shared --prefix=/home/jinleileiking/tools/embeded/ruby192
-
-* chown -R  root:root *
+*(use "git checkout -- <file>..." to discard changes in working directory)
 
 
 
