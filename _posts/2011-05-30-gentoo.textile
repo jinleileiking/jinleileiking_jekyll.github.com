@@ -31,6 +31,9 @@ h3. vbox
 ** 用gentoodisk启动
 ** fdisk 改分区大小
 ** resize2fs.... done... so easy
+* linux访问共享的win文件夹
+** sudo mount -t vboxsf d_drive /mnt/win7, 犯了个错误，vboxfs.....
+
 
 
 
