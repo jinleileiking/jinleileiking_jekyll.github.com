@@ -3,7 +3,6 @@ layout: post
 title: "git" 
 ---
 
-*(use "git checkout -- <file>..." to discard changes in working directory)
-
+* (use "git rm --cached <file>..." to unstage)
 
 
