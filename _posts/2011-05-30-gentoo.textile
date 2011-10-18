@@ -39,4 +39,7 @@ h3. others
 * equery可查看已安装包的信息 emerge gentoolkit:  equery l
 * usermod -a -G ftp tony
 
+h3. 常用命令
+* 
+
 h3. todo
