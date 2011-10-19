@@ -14,7 +14,7 @@ h3. Plugins
 
 h4. ack
 
-:Ack 'Item\d' # 这样好使。。。。。
+* :Ack 'Item\d' # 这样好使。。。。。
 
 h3. todo
 
