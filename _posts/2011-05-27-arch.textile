@@ -2,6 +2,7 @@
 layout: post
 title: "arch安装记录" 
 ---
+R61还是有网卡问题，所以不能用minimal装。。。
 
 h3. 菜单安装
 * 修改主机名
@@ -9,6 +10,7 @@ h3. 菜单安装
 * reboot
 
 h3. 软件升级
+* 先搞一下手动配置网卡IP，/etc/resolve.conf : nameserver 192.168.1.1
 * /etc/pacman.d/mirrorslist mirror 选163
 * pacman -Syy
 * pacman -Syu
