@@ -9,11 +9,12 @@ h3. 菜单安装
 * 添个root密码
 * reboot
 
-h3. 软件升级
+h3. 软件安装
+* 想直接装X的，但是发现还是得pacman -Syu,一样的，所以以后先SYU一下
 * 先搞一下手动配置网卡IP，/etc/resolve.conf : nameserver 192.168.1.1
 * /etc/pacman.d/mirrorslist mirror 选163
 * pacman -Syy
-* pacman -Syu
+* pacman -Syu # 提示说什么locale文件已经存在，删了就OK
 * pacman-db-upgrade
 * pacman -Syu
 * reboot
