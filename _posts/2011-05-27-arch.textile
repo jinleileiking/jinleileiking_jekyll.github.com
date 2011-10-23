@@ -19,9 +19,24 @@ h3. 软件安装
 * pacman -Syu
 * reboot
 
+h3. 字体
+
+* pacman -S dejavu?
+-* 下载微米黑，也可以考虑雅黑，中文字体其实就是调整中文字体顺序.fontconf-
+* wiki步骤安装yaourt, 就是加个源。
+* yaourt -S *-lcd
+* yaourt microhei
+* Zsh,Sans Zs ns之间有间距：折腾了半天：需要cairo-ubuntu, xft-ubuntu, fontconfig-ubuntu等（鉴于转到gentoo，不细研究了)
 
 
 h3. x
+
+h3. sudo
+* 添加用户  useradd -m -g users -G audio,lp,optical,storage,video,wheel,games,power,scanner -s /bin/bash jinleileiking
+* pacman -S sudo
+* visudo
+* #%wheel  ALL=(ALL) ALL取消注释
+* passwd jinleileiking
 
 h3. vbox
 
@@ -32,34 +47,21 @@ h3. vbox
 -# pacman -S mesa-
 -pacman -Ss xf86-video-vesa-
 * sharefolder: sudo mount -t vboxsf tools /mnt
+* vbox addition装不上： 要按照gpl pacman来取
 
 h3. gnome3
 
 * pacman -S gnome-shell
 * 按照wiki来，注意要用inittab模式。
+* gnome3 vbox fallback模式: ln -s /usr/lib/xorg/modules/dri /usr/lib/dri     ln -s /usr/lib/xorg/modules/dri/vboxvideo_dri.so /usr/lib/dri
+* gnome3 fullmode cpu太高，死机：其实禁用vbox的3d模式就能切换到rollbak
 
-h3. zsh,添加用户
+
+h3. zsh
 
 * pacman -S zsh
 * pacman -S git
 * oh-my-zsh : wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
-* 添加用户  useradd -m -g users -G audio,lp,optical,storage,video,wheel,games,power,scanner -s /bin/bash jinleileiking
-* pacman -S sudo
-* visudo
-* #%wheel	ALL=(ALL) ALL取消注释
-* passwd jinleileiking
 * inetutils 解决hostname命令找不到的问题
 
-h3. 字体
 
-* pacman -S dejavu?
-* 下载微米黑，也可以考虑雅黑，中文字体其实就是调整中文字体顺序.fontconf
-* wiki步骤安装yaourt, 就是加个源。
-* yaourt -S *-lcd
-* Zsh,Sans Zs ns之间有间距：折腾了半天：需要cairo-ubuntu, xft-ubuntu, fontconfig-ubuntu等（鉴于转到gentoo，不细研究了)
-* fontconfig: https://gist.github.com/998504
-
-h3. 遇到的问题
-* vbox addition装不上： 要按照gpl pacman来取
-* gnome3 vbox fallback模式: ln -s /usr/lib/xorg/modules/dri /usr/lib/dri     ln -s /usr/lib/xorg/modules/dri/vboxvideo_dri.so /usr/lib/dri
-* gnome3 fullmode cpu太高，死机：其实禁用vbox的3d模式就能切换到rollbak
