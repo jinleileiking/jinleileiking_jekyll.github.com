@@ -7,6 +7,7 @@ h3. 问题
 * 快捷方式以root方式启动
 * R61还是有网卡问题，所以不能用minimal装。。。
 * yaourt 还是会用wget, 使用aria2
+* rvm jruby找不到gem
 
 h3. 菜单安装
 * 修改主机名
