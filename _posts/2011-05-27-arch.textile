@@ -48,6 +48,7 @@ h3. zsh,添加用户
 * visudo
 * #%wheel	ALL=(ALL) ALL取消注释
 * passwd jinleileiking
+* inetutils 解决hostname命令找不到的问题
 
 h3. 字体
 
