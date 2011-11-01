@@ -2,6 +2,8 @@
 layout: post
 title: "vim遇到的问题" 
 ---
+* ack
+** -a, --all-types       All file types searched;
 
 * 有几个插件和输入法冲突: acp, autoclose, delimate
 * cscope
