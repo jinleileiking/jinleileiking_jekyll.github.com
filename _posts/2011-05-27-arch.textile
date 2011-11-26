@@ -69,4 +69,7 @@ h3. zsh
 * oh-my-zsh : wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
 * inetutils 解决hostname命令找不到的问题
 
+h3. others
+
+* usermod -a jinleileiking -G root,bin,adm,tty,disk,mem,kmem,ftp,mail,uucp,log,utmp,locate,rfkill,smmsp,http,network,floppy,nobody,users,dbus,avahi,camera,usbmux,sys
 
