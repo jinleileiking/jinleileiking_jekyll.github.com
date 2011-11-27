@@ -5,24 +5,42 @@ title: "arch安装记录"
 
 h3. 问题
 * 快捷方式以root方式启动
-* R61还是有网卡问题，所以不能用minimal装。。。
+* R61还是有网卡问题，所以不能用minimal装。。。只能用整盘安装
 * yaourt 还是会用wget, 使用aria2
 * rvm jruby找不到gem
 
 h3. 菜单安装
 * 修改主机名
 * 添个root密码
+* /etc/pacman.d/mirrorslist mirror 选163
+* rc.conf 选中dhcp 会自动启动dhcpcd
 * reboot
 
-h3. 软件安装
-* 想直接装X的，但是发现还是得pacman -Syu,一样的，所以以后先SYU一下
-* 先搞一下手动配置网卡IP，/etc/resolve.conf : nameserver 192.168.1.1
-* /etc/pacman.d/mirrorslist mirror 选163
+h4. 用户建立
 * pacman -Syy
 * pacman -Syu # 提示说什么locale文件已经存在，删了就OK
-* pacman-db-upgrade
-* pacman -Syu
-* reboot
+* pacman -S xorg-server sudo xfce4 aria2 git openssh virtualbox-archlinux-additions inetutils
+* rc.conf 加 vbox-service
+* user add -m jinleileiking #一定要用这个建立目录，mkdir是root权限 x起不来
+* passwd jinleileiking
+* usermod -a jinleileiking -G root,bin,adm,tty,disk,mem,kmem,ftp,mail,uucp,log,utmp,locate,rfkill,smmsp,http,network,floppy,nobody,users,dbus,avahi,camera,usbmux,sys,lp,wheel,games,video,audio,optical,storage,scanner,power,jinleileiking,daemon
+* ssh-keygen # 将rsa_pub同步到github
+* etc目录同步
+* jinleileiking 登录
+* ssh-keygen 
+* .目录同步
+* ohmyzsh #clone chsh
+* rvm # clone & rvm requiremnt & rvm install 1.9.2 & rvm install 1.8.7 & jruby
+* vundle # githbub clone :BundleInstall
+
+
+-h3. 软件安装-
+-* 想直接装X的，但是发现还是得pacman -Syu,一样的，所以以后先SYU一下-
+-* 先搞一下手动配置网卡IP，/etc/resolve.conf : nameserver 192.168.1.1-
+
+
+-* pacman-db-upgrade-
+-* reboot-
 
 h3. 字体
 
@@ -31,17 +49,17 @@ h3. 字体
 * wiki步骤安装yaourt, 就是加个源。
 * yaourt -S *-lcd
 * yaourt microhei
-* Zsh,Sans Zs ns之间有间距：折腾了半天：需要cairo-ubuntu, xft-ubuntu, fontconfig-ubuntu等（鉴于转到gentoo，不细研究了)
+-* Zsh,Sans Zs ns之间有间距：折腾了半天：需要cairo-ubuntu, xft-ubuntu, fontconfig-ubuntu等（鉴于转到gentoo，不细研究了)-
 
 
-h3. x
+-h3. x-
 
-h3. sudo
-* 添加用户  useradd -m -g users -G audio,lp,optical,storage,video,wheel,games,power,scanner -s /bin/bash jinleileiking
-* pacman -S sudo
-* visudo
-* #%wheel  ALL=(ALL) ALL取消注释
-* passwd jinleileiking
+-h3. sudo-
+-* 添加用户  useradd -m -g users -G audio,lp,optical,storage,video,wheel,games,power,scanner -s /bin/bash jinleileiking-
+-* pacman -S sudo-
+-* visudo-
+-* #%wheel  ALL=(ALL) ALL取消注释-
+-* passwd jinleileiking-
 
 h3. vbox
 
@@ -52,24 +70,21 @@ h3. vbox
 -# pacman -S mesa-
 -pacman -Ss xf86-video-vesa-
 * sharefolder: sudo mount -t vboxsf tools /mnt
-* vbox addition装不上： 要按照gpl pacman来取
+-* vbox addition装不上： 要按照gpl pacman来取
 
-h3. gnome3
+-h3. gnome3-
 
-* pacman -S gnome-shell
-* 按照wiki来，注意要用inittab模式。
-* gnome3 vbox fallback模式: ln -s /usr/lib/xorg/modules/dri /usr/lib/dri     ln -s /usr/lib/xorg/modules/dri/vboxvideo_dri.so /usr/lib/dri
-* gnome3 fullmode cpu太高，死机：其实禁用vbox的3d模式就能切换到rollbak
+-* pacman -S gnome-shell-
+-* 按照wiki来，注意要用inittab模式。-
+-* gnome3 vbox fallback模式: ln -s /usr/lib/xorg/modules/dri /usr/lib/dri     ln -s /usr/lib/xorg/modules/dri/vboxvideo_dri.so /usr/lib/dri-
+-* gnome3 fullmode cpu太高，死机：其实禁用vbox的3d模式就能切换到rollbak-
 
 
-h3. zsh
+-h3. zsh-
 
-* pacman -S zsh
-* pacman -S git
-* oh-my-zsh : wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
-* inetutils 解决hostname命令找不到的问题
+-* pacman -S zsh-
+-* pacman -S git-
+-* oh-my-zsh : wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh-
+-* inetutils 解决hostname命令找不到的问题-
 
 h3. others
-
-* usermod -a jinleileiking -G root,bin,adm,tty,disk,mem,kmem,ftp,mail,uucp,log,utmp,locate,rfkill,smmsp,http,network,floppy,nobody,users,dbus,avahi,camera,usbmux,sys
-
