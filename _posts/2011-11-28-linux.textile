@@ -12,3 +12,5 @@ h3. 问题
 * xfce的图标快捷方式的proxy不能用.zshrc的，需要在.xinitrc中定义。狗血。。。
 * pacman 的wget的proxy不能共享环境变量，需要在~/.wgetrc中找。。。。
 
+* echo 3 > /proc/sys/vm/drop_caches # free ..
+
