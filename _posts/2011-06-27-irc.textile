@@ -4,5 +4,5 @@ title: "irc"
 ---
 
 * /msg nickserv identify your_password  
-* /msg alis list \*cn\* 会再新窗口现实cn的channel 没有空格
+* /msg alis list ==*cn*== 会再新窗口现实cn的channel 没有空格
 * < tmr> /unquery, /query or /q to close query, /wc to close window (two different things).16:32 < tmr> Alis replies with notices.
