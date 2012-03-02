@@ -4,6 +4,8 @@ title: "gentoo安装记录"
 ---
 
 * revdep-rebuild ibus降级，ibus-sunpinyin不好使。，用这个命令解决了。
+* gvim 不能+gnome!!!!!!
+
 
 h3. 真实安装
 
