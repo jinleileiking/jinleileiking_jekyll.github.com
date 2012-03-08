@@ -13,3 +13,11 @@ git fetch
 git branch master origin/master 
 git checkout master 
 
+
+h3. git pull http master 后，git log -p -n1 显示不出区别
+
+git log --oneline 看commit号, git diff commit号
+
+
+h3. git ls-files
+
