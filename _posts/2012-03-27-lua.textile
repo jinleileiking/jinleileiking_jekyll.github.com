@@ -1,0 +1,7 @@
+---
+layout: post
+title: "lua" 
+---
+
+
+今天读完了lua的简单代码，对编译器有了一个初步的认识。下一步看看awesome，然后就看ruby代码了。哈哈
